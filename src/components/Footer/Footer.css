@@ -1,0 +1,10 @@
+.Footer{
+    position: fixed;
+    left: 0 auto; bottom: 0;
+    width: 1600px;
+    height: 60px;
+    background: #F3F4F4;
+
+    
+    z-index: 3;
+}
