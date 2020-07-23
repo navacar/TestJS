@@ -8,22 +8,3 @@
     z-index: 2;
 }
 
-.Account_Name{
-    position: absolute;
-    width: 101px;
-    height: 17px;
-    left: 1385px;
-    top: 28px;
-
-    /* header_tabular_gilroy 14 bold */
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-    letter-spacing: 0.04em;
-
-    /* color / balck */
-    color: #3E445B;
-}

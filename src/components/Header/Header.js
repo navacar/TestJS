@@ -1,13 +1,12 @@
 import React from 'react';
 import './Header.css';
+import CbsRight from './CbsRight/CbsRight';
+import CbsLeft from './CbsLeft/CbsLeft';
 
 const Header = () => (
     <div className="Header">
-        <div>
-            <div className="Account_Name">
-                Account name
-            </div>
-        </div>
+        <CbsRight />
+        <CbsLeft />
     </div>
 )
 

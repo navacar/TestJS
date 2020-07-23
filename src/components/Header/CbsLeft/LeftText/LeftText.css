@@ -1,0 +1,34 @@
+.nameContainer{
+    display: flex;
+    flex-direction: row;
+
+
+    margin-left: 33.77px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 17px;
+   
+    letter-spacing: 1.79pt;
+
+}
+.Cbs{
+    color:#F8A303 ;
+}
+.one{
+    color: #3E445B;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Light'), local('Gilroy-Light'), url('../../Fonts/Gilroylight.woff2') format('woff2'), url('../../Fonts/Gilroylight.woff') format('woff'), url('../../Fonts/Gilroylight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy ExtraBold'), local('Gilroy-ExtraBold'), url('../../Fonts/Gilroyextrabold.woff2') format('woff2'), url('../../Fonts/Gilroyextrabold.woff') format('woff'), url('../../Fonts/Gilroyextrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}

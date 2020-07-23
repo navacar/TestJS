@@ -1,0 +1,10 @@
+.cbsLeft{
+    position: absolute;
+    width: 120px;
+    height: 24px;
+    left: 60px;
+    top: 28px;
+    
+    background: rgba(52, 48, 39, 0.003);
+    /* background-color: black; */
+}

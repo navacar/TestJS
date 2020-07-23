@@ -1,0 +1,12 @@
+.rightLogo{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1500px;
+    top: 16px;  
+}
+
+.rightLogo img{
+    width: 40px;
+    height: 40px;
+}
