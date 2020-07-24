@@ -5,7 +5,7 @@ import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 import Logo from './components/Logo/Logo';
 import Orange from './components/Orange/Orange';
-
+import Blue from './components/Blue/Blue';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       <Footer />
       <Logo />
       <Orange />
+      <Blue />
     </div>
   );
 }

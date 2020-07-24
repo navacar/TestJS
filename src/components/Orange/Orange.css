@@ -10,7 +10,7 @@
     border-radius: 8px;
 }
 
-.orangeText{
+.orangeBalance{
     position: absolute;
     width: 284.67px;
     height: 56px;
@@ -26,7 +26,7 @@
     color: #3E445B;
 }
 
-.orangeText span{
+.orangeBalance span{
     opacity: 0.5;
     font-size: 35px;
 }

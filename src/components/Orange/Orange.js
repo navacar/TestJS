@@ -11,7 +11,7 @@ const Orange = () => {
 
     return (
         <div className="orangeContainer">
-            <div className="orangeText">
+            <div className="orangeBalance">
                 {mainBalance} <span>{currency}</span>
             </div>
             <img className="orangeLogo" src="/icons/orangeLogo.png" />
