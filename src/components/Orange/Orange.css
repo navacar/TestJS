@@ -1,0 +1,161 @@
+.orangeContainer{
+    position: absolute;
+    width: 464px;
+    height: 152px;
+    margin-left: 280px;
+    top: 208px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1.4945px 1.53979px rgba(0, 0, 0, 0.02), 0px 4.13211px 4.25733px rgba(0, 0, 0, 0.025), 0px 9.94853px 10.25px rgba(0, 0, 0, 0.03), 0px 33px 34px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.orangeText{
+    position: absolute;
+    width: 284.67px;
+    height: 56px;
+    left: 40px;
+    top: 32px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 56px;
+
+    color: #3E445B;
+}
+
+.orangeText span{
+    opacity: 0.5;
+    font-size: 35px;
+}
+
+.orangeLogo{
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 399px;
+    top: 42px;
+}
+
+.orangeFootContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    
+    position: absolute;
+    width: 229px;
+    height: 19px;
+    left: 40px;
+    top: 101px;
+}
+
+.unLocked{
+    position: static;
+    width: 93px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+    
+    
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 12px 0px;
+}
+
+.unLockedImg{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 0px;
+    top: 1px;
+
+}
+
+.unLockedText{
+    position: absolute;
+    width: 68px;
+    height: 19px;
+    left: 24px;
+    top: 0px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    
+    color: #3E445B;
+    opacity: 0.6;
+}
+/*                               */
+.Dot{
+    position: static;
+    width: 4px;
+    height: 4px;
+    left: 105px;
+    top: 7.5px;
+    
+    background: #3E445B;
+    opacity: 0.5;
+    
+    flex: none;
+    order: 1;
+    align-self: center;
+    /* margin: 12px 0px; */
+    margin-left: 13px;
+
+    border-radius: 8px;
+}
+
+.Locked{
+    display: flex;
+    flex-direction: row;
+    position: static;
+    width: 108px;
+    height: 19px;
+    left: 121px;
+    top: 0px;
+    
+    flex: none;
+    order: 2;
+    align-self: center;
+    margin-left: 12px;
+}
+
+.LockedText{
+    position: relative;
+    width: 77px;
+    height: 19px;
+    left: 13px;
+    top: 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #3E445B;
+    opacity: 0.6;
+    /* margin-left: 108px; */
+}
+
+.LockedImg{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    left: 6px;
+    top: 1px;
+}

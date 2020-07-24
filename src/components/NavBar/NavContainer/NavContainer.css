@@ -46,6 +46,7 @@
 }
 
 .Wallet{
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     padding: 4px 0px;
@@ -53,6 +54,7 @@
 }
 
 .Ambasadors{
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     padding: 4px 0px;
@@ -70,6 +72,7 @@
 }
 
 .Staked{
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     padding: 4px 0px;
@@ -78,6 +81,7 @@
 }
 
 .Followers{
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     padding: 4px 0px;

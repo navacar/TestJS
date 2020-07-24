@@ -13,6 +13,7 @@
 }
 
 .Account_Name{
+    cursor: pointer;
     position: absolute;
     width: 101px;
     height: 17px;
