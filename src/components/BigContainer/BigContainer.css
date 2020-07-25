@@ -1,0 +1,31 @@
+.BigContainer{
+    position: absolute;
+    width: 464px;
+    height: 264px;
+    margin-left: 280px;
+    top: 528px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 1.4945px 1.53979px rgba(0, 0, 0, 0.02), 0px 4.13211px 4.25733px rgba(0, 0, 0, 0.025), 0px 9.94853px 10.25px rgba(0, 0, 0, 0.03), 0px 33px 34px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.Resources{
+    position: absolute;
+    width: 70px;
+    height: 16px;
+    left: 24px;
+    top: 24px;
+    
+    /* header_tabular_gilroy 14 bold */
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    
+    /* color / balck */
+    color: #3E445B;
+    opacity: 0.5;
+}

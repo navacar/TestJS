@@ -1,0 +1,77 @@
+.redCircle{
+    position: absolute;
+    width: 303px;
+    height: 48px;
+    left: 24px;
+    top: 120px;
+}
+
+.redCurrency{
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 0px;
+    top: 12px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #3E445B;
+}
+
+.redCircleContent{
+    position: absolute;
+    width: 215px;
+    height: 48px;
+    left: 88px;
+    top: 0px;
+}
+
+.redCircleImg{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+}
+
+.redPercent{
+    position: absolute;
+    width: 63px;
+    height: 24px;
+    left: 64px;
+    top: 0px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+
+    color: #3E445B;
+}
+
+.redNumber{
+    position: absolute;
+    width: 151px;
+    height: 20px;
+    left: 64px;
+    top: 28px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #3E445B;
+    opacity: 0.6;
+}

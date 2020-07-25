@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer';
 import Logo from './components/Logo/Logo';
 import Orange from './components/Orange/Orange';
 import Blue from './components/Blue/Blue';
+import BigContainer from './components/BigContainer/BigContainer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Logo />
       <Orange />
       <Blue />
+      <BigContainer />
     </div>
   );
 }

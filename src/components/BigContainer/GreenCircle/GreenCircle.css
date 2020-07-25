@@ -1,0 +1,77 @@
+.greenCircleContainer{
+    position: absolute;
+    width: 304px;
+    height: 50px;
+    left: 24px;
+    top: 54px;
+}
+
+.greenCurrency{
+    position: absolute;
+    width: 42px;
+    height: 24px;
+    left: 0px;
+    top: 13px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #3E445B;
+}
+
+.greenCircleContent{
+    position: absolute;
+    width: 215px;
+    height: 48px;
+    left: 88px;
+    top: 2px;
+}
+
+.greenCircleImg{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+}
+
+.greenPercent{
+    position: absolute;
+    width: 66px;
+    height: 24px;
+    left: 64px;
+    top: 0px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    
+    color: #3E445B;
+}
+
+.greenNumber{
+    position: absolute;
+    width: 151px;
+    height: 20px;
+    left: 64px;
+    top: 28px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #3E445B;
+    opacity: 0.6;
+}
