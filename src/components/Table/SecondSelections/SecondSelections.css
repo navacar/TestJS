@@ -1,7 +1,9 @@
 :root{
     --secondLeft: 0px;
     --secondWidth: 18px;
-    --visability: visible;
+    --secondAllOpacity: 1;
+    --CBSOpacity: 0.3;
+    --CBSHOpacity: 0.3;
 }
 
 .secondSelections{
@@ -23,13 +25,10 @@
     letter-spacing: 0.04em;
 
     color: #3E445B;
-    opacity: 0.3;
+    opacity: var(--secondAllOpacity);
     text-decoration: none;
 }
 
-.secondAll a.active{
-    opacity: 1;
-}
 
 .CBS a{
     position: absolute;
@@ -45,12 +44,8 @@
     letter-spacing: 0.04em;
 
     color: #3E445B;
-    opacity: 0.3;
+    opacity: var(--CBSOpacity);
     text-decoration: none;
-}
-
-.CBS a.active{
-    opacity: 1;
 }
 
 .CBSH a{
@@ -67,24 +62,21 @@
     letter-spacing: 0.04em;
     
     color: #3E445B;
-    opacity: 0.3;
+    opacity: var(--CBSHOpacity);
     text-decoration: none;
-}
-
-.CBSH a.active{
-    opacity: 1;
 }
 
 .secondRissinka{
     position: absolute;
     width: var(--secondWidth);
     height: 3px;
-    top: 32px;
+    top: 24px;
     left: var(--secondLeft);
     
     background: #F8A303;
     border-radius: 5px;
     transform: matrix(-1, 0, 0, 1, 0, 0);
 
-    visibility: var(--visability);
+    visibility: visible;
+    z-index: 2;
 }

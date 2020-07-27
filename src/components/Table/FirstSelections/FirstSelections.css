@@ -83,11 +83,12 @@
     position: absolute;
     width: var(--width);
     height: 3px;
-    top: 32px;
+    top: 24px;
     left: var(--left);
     
     background: #F8A303;
     border-radius: 5px;
     transform: matrix(-1, 0, 0, 1, 0, 0);
+    z-index: 2;
 
 }

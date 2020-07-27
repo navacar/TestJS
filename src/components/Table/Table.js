@@ -3,6 +3,8 @@ import './Table.css';
 import FirstSelections from './FirstSelections/FirstSelections';
 import SecondSelections from './SecondSelections/SecondSelections';
 import Send from './Send/Send';
+import Receive from './Receive/Receive';
+import Box from './Box/Box';
 
 const Table = () => {
 
@@ -15,7 +17,9 @@ const Table = () => {
             </div>
             <FirstSelections />
             <SecondSelections />
-            {/* <Send /> */}
+            <Send />
+            <Receive />
+            <Box />
         </div>
     )
 }
