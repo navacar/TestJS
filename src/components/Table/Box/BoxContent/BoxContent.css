@@ -1,0 +1,48 @@
+.boxContent{
+    position: absolute;
+    width: 660px;
+    height: 838px;
+    left: 40px;
+    top: 32px;
+}
+.textFont{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    
+    color: #3E445B;
+    opacity: 0.5;
+}
+.Rank{
+    position: absolute;
+}
+
+.Data{
+    position: absolute;
+    width: 86px;
+    height: 16px;
+    left: 56px;
+}
+
+.Name{
+    position: absolute;
+    width: 40px;
+    left: 292px;
+}
+
+.Balance{
+    position: absolute;
+    width: 57px;
+    left: 552px;
+}
+
+.tableElements{
+    position: absolute;
+    width: 660px;
+    height: 784px;
+    left: 0px;
+    top: 32px;
+}

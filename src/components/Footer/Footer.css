@@ -1,6 +1,7 @@
 .Footer{
-    position: fixed;
-    left: 0 auto; bottom: 0;
+    position: absolute;
+    left: 0 auto; 
+    top: 1235px;
     width: 1600px;
     height: 60px;
     background: #F3F4F4;

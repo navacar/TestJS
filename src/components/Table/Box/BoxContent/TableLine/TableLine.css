@@ -1,0 +1,111 @@
+.tableLine{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: -20px;
+    margin-top: 20px;
+}
+
+.lineRank{
+    width: 24px;
+    height: 24px;
+}
+
+.lineData{
+    position: relative;
+    left: 34px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #3E445B;
+}
+
+.lineTime{
+    position: relative;
+    left: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #3E445B;
+    opacity: 0.5;
+}
+
+.lineAvatar{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: 120px;
+}
+
+.lineName{
+    position: relative;
+    width: 85px;
+    left: 128px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #3E445B;
+}
+
+.lineBalance{
+    position: relative;
+    left: 310px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #449a16dc;
+
+}
+
+.lineCurrency{
+    position: relative;
+    left: 315px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: rgba(62, 68, 91, 0.5);
+}
+
+.lineBorder{
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    right: -4px;
+    top: 32px;
+    
+    opacity: 0.05;
+    border: 1px solid #3E445B;
+}
