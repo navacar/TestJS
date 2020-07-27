@@ -1,0 +1,93 @@
+:root{
+    --left: 0px;
+    --width: 18px;
+}
+
+
+.firstSelections{
+    position: absolute;
+    left: 40px;
+    top: 48px;
+    height: 16px;
+    width: 120px;
+
+}
+
+.firstAll a{
+    position: absolute;
+    width: 18px;
+    height: 16px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+
+    color: #3E445B;
+    opacity: 0.3;
+
+    text-decoration: none;
+}
+
+.firstAll a.active{
+    opacity: 1;
+}
+
+.Inn a{
+    position: absolute;
+    width: 22px;
+    height: 16px;
+    left: 42px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    
+    color: #3E445B;
+    opacity: 0.3;
+    text-decoration: none;
+}
+
+.Inn a.active{
+    opacity: 1;
+}
+
+.Out a{
+    position: absolute;
+    width: 26px;
+    height: 16px;
+    left: 88px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    
+    color: #3E445B;
+    opacity: 0.3;
+    text-decoration: none;
+
+}
+.Out a.active{
+    opacity: 1;
+}
+
+.Rissinka{
+    position: absolute;
+    width: var(--width);
+    height: 3px;
+    top: 32px;
+    left: var(--left);
+    
+    background: #F8A303;
+    border-radius: 5px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+}

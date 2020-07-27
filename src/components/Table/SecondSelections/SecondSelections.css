@@ -1,0 +1,90 @@
+:root{
+    --secondLeft: 0px;
+    --secondWidth: 18px;
+    --visability: visible;
+}
+
+.secondSelections{
+    position: absolute;
+    width: 132px;
+    height: 16px;
+    left: 234px;
+    top: 48px;
+}
+
+.secondAll a{
+    position: absolute;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+
+    color: #3E445B;
+    opacity: 0.3;
+    text-decoration: none;
+}
+
+.secondAll a.active{
+    opacity: 1;
+}
+
+.CBS a{
+    position: absolute;
+    width: 28px;
+    height: 16px;
+    left: 42px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+
+    color: #3E445B;
+    opacity: 0.3;
+    text-decoration: none;
+}
+
+.CBS a.active{
+    opacity: 1;
+}
+
+.CBSH a{
+    position: absolute;
+    width: 38px;
+    height: 16px;
+    left: 94px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    
+    color: #3E445B;
+    opacity: 0.3;
+    text-decoration: none;
+}
+
+.CBSH a.active{
+    opacity: 1;
+}
+
+.secondRissinka{
+    position: absolute;
+    width: var(--secondWidth);
+    height: 3px;
+    top: 32px;
+    left: var(--secondLeft);
+    
+    background: #F8A303;
+    border-radius: 5px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+    visibility: var(--visability);
+}

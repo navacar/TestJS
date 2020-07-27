@@ -1,0 +1,27 @@
+.Table{
+    position: absolute;
+    width: 744px;
+    height: 1000px;
+    left: 800px;
+    top: 120px;
+}
+
+.Transactions{
+    position: absolute;
+    width: 118px;
+    height: 24px;
+    left: 40px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #4F4F4F;
+    
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+}
+

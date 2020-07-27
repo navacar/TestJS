@@ -7,10 +7,13 @@ import Logo from './components/Logo/Logo';
 import Orange from './components/Orange/Orange';
 import Blue from './components/Blue/Blue';
 import BigContainer from './components/BigContainer/BigContainer';
+import Table from './components/Table/Table';
+import {Redirect } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
+      <Redirect from="/" to="/All/SecondAll" />
       <Header />
       <NavBar />
       <Footer />
@@ -18,6 +21,7 @@ function App() {
       <Orange />
       <Blue />
       <BigContainer />
+      <Table />
     </div>
   );
 }
