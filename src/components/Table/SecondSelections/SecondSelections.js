@@ -29,13 +29,13 @@ const SecondSelections = () => {
     return (
             <div className="secondSelections">
                 <div className="secondAll">
-                    <NavLink to={window.location.pathname} onClick={onClickSecondAll}>All</NavLink>
+                    <NavLink to="secondAll" onClick={onClickSecondAll}>All</NavLink>
                 </div>
                 <div className="CBS">
-                    <NavLink to={window.location.pathname} onClick={onClickCBS}>CBS</NavLink>
+                    <NavLink to="CBS" onClick={onClickCBS}>CBS</NavLink>
                 </div>
                 <div className="CBSH">
-                    <NavLink to={window.location.pathname} onClick={onClickCBSH}>CBSH</NavLink>
+                    <NavLink to="CBSH" onClick={onClickCBSH}>CBSH</NavLink>
                 </div>
                 <div className="secondRissinka">
 
