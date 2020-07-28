@@ -4,21 +4,22 @@ import { NavLink } from 'react-router-dom';
 
 const FirstSelections = () => {
     var root = document.querySelector(':root');
+    let onClickEvent = (left, width) => {
+        root.style.setProperty('--left', left);
+        root.style.setProperty('--width', width);
+    }
     
     let onClickAll = () =>{
-        root.style.setProperty('--left', '0px');
-        root.style.setProperty('--width', '18px');
-        // root.style.setProperty('--visability', 'hidden');
+        onClickEvent('0px', "18px")
     }
 
     let onClickInn = () => {
-        root.style.setProperty('--left', '42px');
-        root.style.setProperty('--width', '22px');
+        onClickEvent('42px', "22px")
     }
 
     let onClickOut = () => {
-        root.style.setProperty('--left', '88px');
-        root.style.setProperty('--width', '26px');
+        onClickEvent('88px', '26px')
+
     }
     return (
             <nav className="firstSelections">

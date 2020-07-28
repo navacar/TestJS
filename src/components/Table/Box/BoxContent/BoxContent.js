@@ -1,6 +1,7 @@
 import React from 'react';
 import './BoxContent.css';
 import TableLine from './TableLine/TableLine';
+import Pages from './Pages/Pages';
 
 const BoxContent = () => {
 
@@ -58,6 +59,7 @@ const BoxContent = () => {
         <div className="tableElements">
             {TableElements}
         </div>
+        <Pages />
     </div>
 )}
 export default BoxContent;

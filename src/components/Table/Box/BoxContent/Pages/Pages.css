@@ -1,0 +1,165 @@
+:root{
+    --firstOpacity: 1;
+    --firstFontWeight: bold;
+    --secondOpacity: 0.5;
+    --secondFontWeight: normal;
+    --thirdOpacity: 0.5;
+    --thirdFontWeight: normal;
+    --fouthOpacity: 0.5;
+    --fouthFontWeight: normal;
+    --fifthOpacity: 0.5;
+    --fifthFontWeight: normal;
+
+    --secondOrder: 2;
+    --thirdOrder: 3;
+    --dotsOrder: 4;
+}
+
+.Pages{
+    display: flex;
+    flex-direction: row;
+
+    position: absolute;
+    width: 138px;
+    height: 17px;
+    left: 264px;
+    top: 905px;
+
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+.Left a{
+    position: absolute;
+    width: 12px;
+    height: 16px;
+    left: 0px;
+    top: 0.5px;
+    
+    text-decoration: none;
+    color: #3E445B;
+    
+
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 7px 0px;
+}
+
+.firstNumber a{
+    position: absolute;
+    width: 12px;
+    height: 17px;
+    left: 19px;
+
+    text-decoration: none;
+    color: #3E445B;
+    font-weight: var(--firstFontWeight);
+    opacity: var(--firstOpacity);
+    
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 7px 0px;
+}
+
+.secondNumber a{
+    position: absolute;
+    width: 12px;
+    height: 16px;
+    left: 38px;
+    top: -0.2px;
+
+    color: #3E445B;
+    text-decoration: none;
+    
+    font-weight: var(--secondFontWeight);
+    opacity: var(--secondOpacity);
+    
+    flex: none;
+    order: 2;
+    align-self: center;
+    margin: 7px 0px;
+}
+
+.thirdNumber a{
+    position: absolute;
+    width: 12px;
+    height: 16px;
+    left: 57px;
+    top: -0.2px;
+    
+    color: #3E445B;
+    text-decoration: none;
+    
+    font-weight: var(--thirdFontWeight);
+    opacity: var(--thirdOpacity);
+    
+    flex: none;
+    order: 3;
+    align-self: center;
+    margin: 7px 0px;
+}
+
+.fouthNumber a{
+    position: absolute;
+    width: 12px;
+    height: 16px;
+    left: 76px;
+    top: -0.2px;
+    
+    text-decoration: none;
+    color: #3E445B;
+
+    font-weight: var(--fouthFontWeight);
+    opacity: var(--fouthOpacity);
+    
+
+    flex: none;
+    order: 4;
+    align-self: center;
+    margin: 7px 0px;
+}
+
+.fifthNumber a{
+    position: absolute;
+    width: 12px;
+    height: 16px;
+    left: 95px;
+    top: -0.2px;
+
+    color: #3E445B;
+    text-decoration: none;
+    
+    font-weight: var(--fifthFontWeight);
+    opacity: var(--fifthOpacity);
+
+    
+    flex: none;
+    order: 5;
+    align-self: center;
+    margin: 7px 0px;
+}
+
+.Right a{
+    position: absolute;
+    width: 12px;
+    height: 16px;
+    left: 114px;
+    top: 0.5px;
+
+    color: #3E445B;
+    text-decoration: none;
+    font-weight: normal;
+
+    flex: none;
+    order: 6;
+    align-self: center;
+    margin: 7px 0px;
+}
