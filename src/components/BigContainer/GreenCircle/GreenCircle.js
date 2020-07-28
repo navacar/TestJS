@@ -1,5 +1,6 @@
 import React from 'react';
 import './GreenCircle.css';
+import GreenCircleFront from './GreenCircleFron/GreenCircleFront';
 
 const GreenCircle = () => {
 
@@ -12,7 +13,11 @@ const GreenCircle = () => {
                 RAM
             </div>
             <div className="greenCircleContent">
-                <img className="greenCircleImg" src="/icons/GreenCircle.png" />
+                <div>
+                    <img className="greenCircleImg" src="/icons/Circle.png" />  
+                    <GreenCircleFront />
+                </div>
+                
                 <div className="greenPercent">
                     {Percent}
                 </div>

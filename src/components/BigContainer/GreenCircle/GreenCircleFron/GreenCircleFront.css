@@ -1,0 +1,25 @@
+.green-circular-chart {
+    position: absolute;
+    left: -62px;
+    top: -10px;
+
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    max-height: 48px;
+  
+    transform: scale(1, -1) rotate(0.5turn);
+  }
+  
+.green-circle {
+    stroke: #27AE60;
+    fill: none;
+    stroke-width: 4.5;
+    animation: progress 1s ease-out forwards;
+  }
+  
+@keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }

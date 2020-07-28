@@ -1,5 +1,6 @@
 import React from 'react';
 import './RedCircle.css';
+import RedCircleFront from './RedCircleFron/RedCircleFront';
 
 const RedCircle = () => {
 
@@ -12,7 +13,11 @@ const RedCircle = () => {
                 CPU
             </div>
             <div className="redCircleContent">
-                <img className="redCircleImg" src="/icons/redCircle.png" />
+                <div>
+                    <img className="redCircleImg" src="/icons/Circle.png" />
+                    <RedCircleFront />
+                </div>
+                
                 <div className="redPercent">
                     {Percent}
                 </div>

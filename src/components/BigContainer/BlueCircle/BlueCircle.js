@@ -1,5 +1,6 @@
 import React from 'react';
 import './BlueCircle.css';
+import BlueCircleFront from './BlueCircleFron/BlueCircleFront';
 
 const BlueCircle = () => {
     let Percent = "100.00%"
@@ -11,7 +12,10 @@ const BlueCircle = () => {
                 NET
             </div>
             <div className="blueCircleContent">
-                <img className="blueCircleImg" src="/icons/BlueCircle.png" />
+                <div>
+                    <img className="blueCircleImg" src="/icons/Circle.png" />    
+                    <BlueCircleFront />
+                </div>
                 <div className="bluePercent">
                     {Percent}
                 </div>
