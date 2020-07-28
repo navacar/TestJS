@@ -35,6 +35,7 @@
 }
 
 .blueBalance span{
+    cursor: pointer;
     opacity: 0.5;
     font-size: 35px;
 }

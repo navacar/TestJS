@@ -9,7 +9,7 @@ firstFontWeight, secondFontWeight, thirdFontWeight, fouthFontWeight, fifthFontWe
     root.style.setProperty('--thirdOpacity', thirdOpacity);
     root.style.setProperty('--fouthOpacity', fouthOpacity);
     root.style.setProperty('--fifthOpacity', fifthOpacity);
-
+    
     root.style.setProperty('--firstFontWeight', firstFontWeight);
     root.style.setProperty('--secondFontWeight', secondFontWeight)
     root.style.setProperty('--thirdFontWeight', thirdFontWeight)

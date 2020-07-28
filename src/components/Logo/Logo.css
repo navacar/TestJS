@@ -31,13 +31,16 @@
     align-items: center;
     font-feature-settings: 'tnum' on, 'lnum' on;
     color: #3E445B;
+    cursor: pointer;
 }
 .logoUpText span{
     opacity: 0.3;
+    cursor: text;
     
 }
 
 .logoDownText{
+    cursor: pointer;
     position: absolute;
     left: 0px;
     top: 28px;
@@ -106,6 +109,7 @@
 }
 
 .downImage{
+    cursor: pointer;
     position: absolute;
     width: 16px;
     height: 16px;

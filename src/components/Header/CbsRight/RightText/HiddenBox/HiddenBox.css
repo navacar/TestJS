@@ -1,0 +1,210 @@
+:root{
+    --hiddenBoxVisibility: hidden;
+    --hiddenBoxOpacity: 0;
+}
+
+.hiddenBox{
+    opacity: var(--hiddenBoxOpacity);
+    visibility: var(--hiddenBoxVisibility);
+    transition: opacity 200ms;
+    position: absolute;
+    width: 289px;
+    height: 240px;
+    left: 1265px;
+    top: 76px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1.4945px 1.53979px rgba(0, 0, 0, 0.02), 0px 4.13211px 4.25733px rgba(0, 0, 0, 0.025), 0px 9.94853px 10.25px rgba(0, 0, 0, 0.03), 0px 33px 34px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.hiddenAccountName{
+    position: absolute;
+    width: 167px;
+    height: 24px;
+    left: 24px;
+    top: 24px;
+    
+    /* header_gikroy_20 bold */
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    
+    /* color / balck */
+    color: #3E445B;
+}
+
+.hiddenText{
+    position: absolute;
+    width: 201px;
+    height: 20px;
+    left: 24px;
+    top: 56px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #3E445B;
+    opacity: 0.45;
+}
+
+.hiddenImg{
+    cursor: pointer;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 242px;
+    top: 54px;
+}
+
+.hiddenBorder{
+    position: absolute;
+    left: 24px;
+    right: 24px;
+    top: 88px;
+    
+    opacity: 0.11;
+    border: 1px solid #000000;
+}
+
+.hiddenKey{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    
+    position: absolute;
+    width: 83px;
+    height: 24px;
+    left: 24px;
+    top: 112px;
+}
+
+.hiddenKeyImg{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 8px 0px;
+}
+
+.hiddenKeyText{
+    position: relative;
+    width: 52px;
+    height: 16px;
+    left: 11px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+
+    color: #3E445B;
+    
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 8px 0px;
+}
+
+.hiddenPinCode{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    
+    position: absolute;
+    width: 124px;
+    height: 24px;
+    left: 24px;
+    top: 152px;
+}
+
+.hiddenPinText{
+    position: relative;
+    width: 92px;
+    height: 16px;
+    left: 11px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+
+    color: #3E445B;
+
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 8px 0px;
+}
+
+.hiddenPinImg{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 8px 0px;
+}
+
+.hiddenLogOut{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    
+    position: absolute;
+    width: 82px;
+    height: 24px;
+    left: 24px;
+    top: 192px;
+}
+
+.hiddenLogText{
+    position: relative;
+    width: 53px;
+    height: 16px;
+    left: 11px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    
+    color: #3E445B;
+    
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 8px 0px;
+}
+
+.hiddenLogImg{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 8px 0px;
+}

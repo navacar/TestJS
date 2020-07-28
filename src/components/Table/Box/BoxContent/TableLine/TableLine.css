@@ -50,6 +50,7 @@
 }
 
 .lineName{
+    cursor: pointer;
     position: relative;
     width: 85px;
     left: 128px;
@@ -84,6 +85,7 @@
 }
 
 .lineCurrency{
+    cursor: pointer;
     position: relative;
     left: 315px;
 
