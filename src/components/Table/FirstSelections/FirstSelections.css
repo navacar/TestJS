@@ -87,7 +87,7 @@
     left: var(--left);
     
     background: #F8A303;
-    border-radius: 5px;
+    border-radius:0px 0px 5px 5px;
     transform: matrix(-1, 0, 0, 1, 0, 0);
     z-index: 2;
 
